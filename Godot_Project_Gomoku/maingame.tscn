@@ -1,0 +1,733 @@
+[gd_scene load_steps=5 format=3 uid="uid://cgbay4nmdwcc"]
+
+[ext_resource type="Script" path="res://GameManager.gd" id="1_7ecl7"]
+[ext_resource type="Texture2D" uid="uid://o8ykaeyxiy7b" path="res://board.png" id="1_dnrdg"]
+[ext_resource type="PackedScene" uid="uid://dhicep5ua8nso" path="res://stone.tscn" id="2_n2low"]
+[ext_resource type="Script" path="res://Stones.gd" id="3_s4e3y"]
+
+[node name="Node" type="Node"]
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("1_7ecl7")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.75, 0.75)
+
+[node name="Game" type="Node2D" parent="."]
+
+[node name="Board" type="Sprite2D" parent="Game"]
+texture = ExtResource("1_dnrdg")
+
+[node name="Stones" type="GridContainer" parent="Game"]
+unique_name_in_owner = true
+offset_left = -419.0
+offset_top = -417.0
+offset_right = 417.0
+offset_bottom = 419.0
+columns = 15
+script = ExtResource("3_s4e3y")
+
+[node name="Stone" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone2" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone3" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone4" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone5" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone6" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone7" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone8" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone9" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone10" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone11" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone12" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone13" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone14" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone15" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone16" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone17" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone18" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone19" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone20" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone21" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone22" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone23" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone24" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone25" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone26" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone27" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone28" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone29" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone30" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone31" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone32" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone33" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone34" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone35" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone36" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone37" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone38" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone39" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone40" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone41" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone42" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone43" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone44" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone45" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone46" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone47" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone48" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone49" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone50" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone51" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone52" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone53" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone54" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone55" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone56" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone57" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone58" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone59" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone60" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone61" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone62" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone63" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone64" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone65" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone66" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone67" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone68" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone69" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone70" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone71" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone72" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone73" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone74" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone75" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone76" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone77" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone78" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone79" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone80" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone81" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone82" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone83" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone84" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone85" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone86" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone87" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone88" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone89" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone90" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone91" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone92" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone93" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone94" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone95" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone96" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone97" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone98" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone99" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone100" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone101" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone102" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone103" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone104" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone105" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone106" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone107" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone108" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone109" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone110" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone111" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone112" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone113" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone114" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone115" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone116" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone117" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone118" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone119" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone120" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone121" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone122" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone123" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone124" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone125" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone126" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone127" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone128" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone129" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone130" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone131" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone132" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone133" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone134" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone135" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone136" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone137" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone138" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone139" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone140" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone141" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone142" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone143" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone144" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone145" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone146" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone147" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone148" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone149" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone150" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone151" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone152" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone153" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone154" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone155" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone156" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone157" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone158" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone159" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone160" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone161" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone162" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone163" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone164" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone165" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone166" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone167" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone168" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone169" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone170" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone171" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone172" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone173" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone174" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone175" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone176" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone177" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone178" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone179" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone180" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone181" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone182" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone183" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone184" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone185" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone186" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone187" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone188" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone189" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone190" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone191" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone192" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone193" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone194" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone195" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone196" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone197" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone198" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone199" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone200" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone201" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone202" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone203" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone204" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone205" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone206" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone207" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone208" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone209" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone210" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone211" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone212" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone213" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone214" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone215" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone216" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone217" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone218" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone219" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone220" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone221" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone222" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone223" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone224" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Stone225" parent="Game/Stones" instance=ExtResource("2_n2low")]
+layout_mode = 2
+
+[node name="Node" type="Node" parent="Game"]
+
+[node name="NextRoundButton" type="Button" parent="Game/Node"]
+offset_left = 468.0
+offset_top = -367.0
+offset_right = 740.0
+offset_bottom = -317.0
+theme_override_font_sizes/font_size = 30
+text = "NextRoundButton"
+
+[node name="Tips" type="Label" parent="Game/Node"]
+unique_name_in_owner = true
+offset_left = -673.0
+offset_top = -358.0
+offset_right = -573.0
+offset_bottom = -289.0
+theme_override_font_sizes/font_size = 50
+text = "玩家"
+
+[node name="Label" type="Label" parent="Game/Node"]
+offset_left = -702.0
+offset_top = -210.0
+offset_right = -662.0
+offset_bottom = -141.0
+theme_override_font_sizes/font_size = 50
+text = "1"
+
+[connection signal="pressed" from="Game/Stones/Stone" to="Game/Stones" method="_on_stone_pressed"]
+[connection signal="pressed" from="Game/Node/NextRoundButton" to="Game/Stones" method="_on_next_round_button_pressed"]
